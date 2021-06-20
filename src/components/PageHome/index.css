@@ -1,0 +1,61 @@
+.container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 2px 2px 8px 2px teal;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+h3{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: teal;
+    text-shadow: 2px 2px 2px silver;
+}
+
+h1{
+    font-size: 35px;
+    color: teal;
+    text-shadow: 2px 2px 2px silver;
+}
+
+.text-area{
+    font-size: 15px;
+    color: teal;
+    text-shadow: 2px 2px 2px silver;
+
+}
+
+.area-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  color: teal;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  box-shadow: 1px 1px 2px teal;
+}
+
+button:hover {
+    color: white;
+    background-color: teal;
+  }
